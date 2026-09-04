@@ -52,6 +52,45 @@ body {
   margin-left: .75rem;
 }
 
+/* Academic offer
+------------------------- */
+.academic-offer {
+  padding: 4rem 0 2rem;
+  margin-bottom: 2rem;
+  background-color: #f4f7fb;
+}
+
+.academic-offer h2 {
+  color: #343a40;
+  font-weight: 400;
+}
+
+.career-card {
+  padding: 2rem;
+  border-top: 4px solid #007bff;
+  background-color: #fff;
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .08);
+}
+
+.career-number {
+  display: block;
+  margin-bottom: 1rem;
+  color: #007bff;
+  font-size: .85rem;
+  font-weight: 700;
+  letter-spacing: .08rem;
+}
+
+.career-card h3 {
+  min-height: 3.5rem;
+  color: #343a40;
+  font-size: 1.35rem;
+}
+
+.career-card p {
+  min-height: 7.5rem;
+}
+
 
 /* Featurettes
 ------------------------- */

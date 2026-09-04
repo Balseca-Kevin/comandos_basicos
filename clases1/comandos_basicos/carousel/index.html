@@ -29,10 +29,10 @@
               <a class="nav-link" href="#">Inicio <span class="sr-only">(actual)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">La Facultad</a>
+              <a class="nav-link" href="#facultad">La Facultad</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Oferta Académica</a>
+              <a class="nav-link" href="#oferta-academica">Oferta Académica</a>
             </li>
           </ul>
           <form class="form-inline mt-2 mt-md-0">
@@ -98,6 +98,62 @@
       ================================================== -->
       <!-- Wrap the rest of the page in another container to center all the content. -->
 
+      <section id="facultad" class="container marketing">
+        <div class="row">
+          <div class="col-md-8 mx-auto text-center">
+            <h2>La Facultad</h2>
+            <p>FISEI es una comunidad académica dedicada a formar profesionales capaces de liderar proyectos de ingeniería con ética, creatividad y compromiso social.</p>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <h3>Misión</h3>
+            <p>Brindar una educación de calidad que integre ciencia, tecnología y valores para contribuir al desarrollo sostenible.</p>
+          </div>
+          <div class="col-md-6">
+            <h3>Visión</h3>
+            <p>Ser una facultad reconocida por su excelencia académica, investigación aplicada y vinculación con la sociedad.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="oferta-academica" class="academic-offer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 mx-auto text-center">
+              <h2>Oferta académica</h2>
+              <p>Elige una carrera y prepárate para convertir tus ideas en soluciones que transformen el entorno.</p>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-4 mb-4">
+              <article class="career-card h-100">
+                <span class="career-number">01</span>
+                <h3>Ingeniería de Software</h3>
+                <p>Diseña software, administra datos y desarrolla soluciones digitales para organizaciones y comunidades.</p>
+                <a class="btn btn-outline-primary" href="#contacto">Conocer carrera <span aria-hidden="true">&raquo;</span></a>
+              </article>
+            </div>
+            <div class="col-md-4 mb-4">
+              <article class="career-card h-100">
+                <span class="career-number">02</span>
+                <h3>Ingeniería Industrial</h3>
+                <p>Optimiza procesos, recursos y equipos de trabajo para construir organizaciones más eficientes y sostenibles.</p>
+                <a class="btn btn-outline-primary" href="#contacto">Conocer carrera <span aria-hidden="true">&raquo;</span></a>
+              </article>
+            </div>
+            <div class="col-md-4 mb-4">
+              <article class="career-card h-100">
+                <span class="career-number">03</span>
+                <h3>Ingeniería Electrónica</h3>
+                <p>Integra circuitos, automatización y telecomunicaciones para resolver retos tecnológicos del mundo actual.</p>
+                <a class="btn btn-outline-primary" href="#contacto">Conocer carrera <span aria-hidden="true">&raquo;</span></a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <div class="container marketing">
 
         <!-- Three columns of text below the carousel -->
@@ -106,7 +162,7 @@
             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
             <h2>Programas académicos</h2>
             <p>Conoce nuestras carreras y opciones de formación profesional, diseñadas para responder a las necesidades del entorno.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Ver programas &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="#oferta-academica" role="button">Ver programas &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
@@ -153,7 +209,7 @@
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">Contacto institucional <span class="text-muted">Estamos para ayudarte.</span></h2>
+            <h2 id="contacto" class="featurette-heading">Contacto institucional <span class="text-muted">Estamos para ayudarte.</span></h2>
             <p class="lead">Encuentra nuestros canales de atención y recibe orientación sobre admisiones, trámites y servicios universitarios.</p>
           </div>
           <div class="col-md-5">
