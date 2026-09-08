@@ -72,6 +72,13 @@ body {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .08);
 }
 
+.career-image {
+  width: calc(100% + 4rem);
+  height: 11rem;
+  margin: -2rem -2rem 1.5rem;
+  object-fit: cover;
+}
+
 .career-number {
   display: block;
   margin-bottom: 1rem;
