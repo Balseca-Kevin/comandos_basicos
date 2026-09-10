@@ -98,6 +98,57 @@ body {
   min-height: 7.5rem;
 }
 
+/* Faculty services
+------------------------- */
+.faculty-services {
+  padding: 4rem 0 2rem;
+  background-color: #fff;
+}
+
+.faculty-services h2 {
+  color: #343a40;
+  font-weight: 400;
+}
+
+.service-card {
+  padding: 1.75rem;
+  border: 1px solid #e2e8f0;
+  border-top: 4px solid #17a2b8;
+  background-color: #fff;
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .06);
+}
+
+.service-image {
+  width: calc(100% + 3.5rem);
+  height: 9rem;
+  margin: -1.75rem -1.75rem 1.5rem;
+  object-fit: cover;
+}
+
+.service-icon {
+  display: block;
+  margin-bottom: 1rem;
+  color: #17a2b8;
+  font-size: .85rem;
+  font-weight: 700;
+  letter-spacing: .08rem;
+}
+
+.service-card h3 {
+  min-height: 3.5rem;
+  color: #343a40;
+  font-size: 1.2rem;
+}
+
+.service-card p {
+  min-height: 8rem;
+}
+
+.service-card a {
+  color: #007bff;
+  font-weight: 600;
+}
+
 
 /* Featurettes
 ------------------------- */
