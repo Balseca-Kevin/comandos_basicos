@@ -1,3 +1,3 @@
-#clase
-##claseprueba
-###clasegitremoto
+#PROYECTO DE COMANODS BASICOS
+##CLASE EPRUEBA
+###clasegiremoto
